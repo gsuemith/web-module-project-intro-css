@@ -46,3 +46,141 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* My CSS */
+
+@font-face {
+    font-family: robotoMono;
+    src: url(assets/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: chelseaMarket;
+    src: url(assets/ChelseaMarket-Regular.ttf);
+}
+
+body {
+    font-family: robotoMono;
+    font-size: 12px;
+}
+
+p {
+    margin: 15px 0px;
+}
+
+h1 {
+    font-size: 3.2em;
+    font-family: chelseaMarket;
+}
+
+strong {
+    font-weight: bold;
+}
+
+nav {
+    align: center;
+}
+
+nav button {
+    height: 40px;
+    width: 100px;
+    background: rgb(95, 95, 172);
+    border: none;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin: 15px;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.orange {
+    background:#FF764E;
+}
+.blue {
+    background: #5ED3EB;
+}
+.yellow {
+    background: #FFCD69;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav button:hover {
+    flex-grow: 2;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+img.rounded {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#title {
+    display: inline-block;
+    flex-grow: 4;
+    text-align: center;
+    position: relative;
+}
+
+.open {
+    width: 280px;
+    margin: auto;
+}
+
+#history {
+    background: #DDB9A3;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 85%;
+    
+}
+
+#history p{
+    width: 95%;
+    height: 90%;
+    padding: .6em;
+    margin: auto;
+}
+
+.tip {
+    margin: 30px auto;
+    width: 215px;
+    text-align: center;
+    font-size: smaller;
+}
+
+
+img.icon {
+    width: 80px;
+    height: 80px;
+}
+
+
+footer div {
+    background-image: url("assets/footer_img.jpg");
+    background-position: 50% 20%;
+    background-size: cover;
+    height: 180px;
+}
+
+footer nav {
+    background-color: #F9E7DC;
+    padding: 15px 0;
+}
